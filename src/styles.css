@@ -1,0 +1,62 @@
+
+.leaderboard h1 {
+  font-size: 38px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  margin-left: 3%;
+}
+
+.recent-scores {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.recent-scores p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.scores {
+  min-height: 50px;
+  border: solid 2px black;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.submit {
+  border: 1px solid black;
+  padding: 5px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.refresh {
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.add-scores {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-scores p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.score {
+  margin-bottom: 10px;
+}
