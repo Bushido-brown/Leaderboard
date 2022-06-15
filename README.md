@@ -1,56 +1,39 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
-
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript ES6
+- Webpack
+- HTML&CSS
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Code editor
+- Node installed
+
 ### Setup
 
-### Install
+- First clone the repository
+- In your code editor terminal run `npm install` to install all the dependencies needed.
+- In your code editor terminal run `npm run start` to start the local server.
 
-### Usage
+## Author 👤
 
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Bushido-brown](https://github.com/Bushido-brown)
+- Twitter: [@tuzyorizu](https://twitter.com/tuzyorizu)
+- LinkedIn: [TochukwuOrizu](https://linkedin.com/in/Tochukwuorizu)
 
 ## 🤝 Contributing
 
