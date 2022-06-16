@@ -17,7 +17,7 @@ const hide = () => {
 const gamename = async (gameid) => {
   let response = await fetch(api, {
     method: 'POST',
-    body: JSON.stringify({ name: "Xxx Game" }),
+    body: JSON.stringify({ name: 'Xxx Game' }),
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
     },
