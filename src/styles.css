@@ -23,17 +23,49 @@ section {
   font-weight: bold;
 }
 
-.scores {
+.scores-div {
   min-height: 50px;
   border: solid 2px black;
   margin-top: 0;
   padding-left: 0;
+  max-height: 90px;
+  overflow-y: auto;
+  max-width: 206.6px;
+}
+
+.scores-li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.msg-submit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 20px;
+}
+
+#message {
+  display: none;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 100;
+  color: green;
+  margin-left: 10px;
+}
+
+#message.active {
+  display: block;
+}
+
+#message.empty {
+  display: block;
+  color: red;
 }
 
 .submit {
   border: 1px solid black;
   padding: 5px;
-  align-self: flex-end;
   cursor: pointer;
 }
 
@@ -46,6 +78,7 @@ section {
 .add-scores {
   display: flex;
   flex-direction: column;
+  flex-basis: 206px;
 }
 
 .add-scores p {
