@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "lato";
+  src: url(./fonts/lato.ttf);
+}
+
+html {
+  font-family: "lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  width: 60%;
+}
+
+.leaderboard h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  align-self: flex-start;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  margin-left: 10%;
+}
+
+.recent-scores {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.recent-scores p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.scores-div {
+  min-height: 50px;
+  border: solid 2px rgb(83, 80, 80);
+  margin-top: 0;
+  padding-left: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  max-width: 206.6px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.scores-li {
+  list-style: none;
+}
+
+.scores-li:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+.msg-submit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 20px;
+}
+
+#message {
+  display: none;
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(14, 168, 14);
+  margin-left: 15px;
+}
+
+#message.active {
+  display: block;
+  margin-right: 20px;
+}
+
+#message.empty {
+  display: block;
+  color: red;
+  margin-left: 19px;
+  margin-top: 3px;
+}
+
+.submit {
+  border: 1px solid black;
+  padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: white;
+  font-size: 14px;
+}
+
+.submit:hover {
+  background-color: aqua;
+}
+
+.refresh {
+  border: 1px solid black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 14px;
+}
+
+.refresh:hover {
+  background-color: aqua;
+}
+
+.add-scores {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 206px;
+}
+
+.add-scores p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.name {
+  margin-bottom: 10px;
+  border-radius: 20% 10%;
+}
+
+.score {
+  margin-bottom: 10px;
+  border-radius: 10% 20%;
+}
