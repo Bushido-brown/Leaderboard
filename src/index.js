@@ -1,4 +1,5 @@
 import './styles.css';
+import img from './leaderboard.jpg';
 
 const player = document.querySelector('.name');
 const score = document.querySelector('.score');
@@ -7,8 +8,10 @@ const refreshbtn = document.querySelector('.refresh');
 const scoresdiv = document.querySelector('.scores-div');
 const msg = document.querySelector('#message');
 const gameid = localStorage.getItem('scores');
+const background = document.querySelector('html');
 const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 
+background.style.backgroundImage = `url('${img}')`;
 const hide = () => {
   msg.classList.remove('active');
   msg.classList.remove('empty');
@@ -33,7 +36,7 @@ const submitfun = async (player, score, gameid) => {
     await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameid}/scores`, {
       method: 'POST',
       body: JSON.stringify({
-        user: `${player.value}`,
+        user: `${player.value}:`,
         score: `${score.value}`,
       }),
       headers: {
